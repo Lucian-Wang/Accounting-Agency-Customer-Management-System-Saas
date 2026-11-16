@@ -1,0 +1,18 @@
+
+
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+!.env.sample
+*.jks
+*.keystore
+*.p12
+*.pfx
+*_private.pem
+*.log
+__pycache__/
+*.pyc
+/public/install.lock
+/public/seals/seal_tpl_682858e9c3205.png
+/public/signatures/sign_2_1747476428.png
